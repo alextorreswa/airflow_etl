@@ -1,0 +1,14 @@
+2023-04-30 20:49:48,223 INFO - Starting the scheduler
+2023-04-30 20:49:48,224 INFO - Processing each file at most -1 times
+2023-04-30 20:49:48,227 INFO - Loaded executor: SequentialExecutor
+2023-04-30 20:49:48,234 INFO - Launched DagFileProcessorManager with pid: 5997
+2023-04-30 20:49:48,237 INFO - Resetting orphaned tasks for active dag runs
+2023-04-30 20:49:48,254 INFO - Configured default timezone Timezone('UTC')
+2023-04-30 20:54:48,411 INFO - Resetting orphaned tasks for active dag runs
+2023-04-30 20:59:48,455 INFO - Resetting orphaned tasks for active dag runs
+2023-04-30 21:04:48,490 INFO - Resetting orphaned tasks for active dag runs
+2023-04-30 21:09:48,532 INFO - Resetting orphaned tasks for active dag runs
+2023-04-30 21:14:48,567 INFO - Resetting orphaned tasks for active dag runs
+2023-04-30 21:19:48,610 INFO - Resetting orphaned tasks for active dag runs
+2023-04-30 21:24:48,646 INFO - Resetting orphaned tasks for active dag runs
+2023-04-30 21:29:48,680 INFO - Resetting orphaned tasks for active dag runs
