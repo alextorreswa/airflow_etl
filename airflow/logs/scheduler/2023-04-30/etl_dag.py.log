@@ -1102,3 +1102,59 @@ IndentationError: unexpected indent
 [2023-04-30T21:53:17.104+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:53:17.104+0000] {dag.py:2690} INFO - Sync 1 DAGs
 [2023-04-30T21:53:17.122+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:53:17.122+0000] {dag.py:3437} INFO - Setting next_dagrun for basic_etl_dag to None, run_after=None
 [2023-04-30T21:53:17.175+0000] {processor.py:175} INFO - Processing /workspaces/airflow_etl/airflow/dags/etl_dag.py took 0.295 seconds
+[2023-04-30T21:53:47.271+0000] {processor.py:153} INFO - Started process (PID=3452) to work on /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:53:47.272+0000] {processor.py:743} INFO - Processing file /workspaces/airflow_etl/airflow/dags/etl_dag.py for tasks to queue
+[2023-04-30T21:53:47.273+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:53:47.272+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:53:47.506+0000] {processor.py:753} INFO - DAG(s) dict_keys(['basic_etl_dag']) retrieved from /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:53:47.533+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:53:47.533+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-30T21:53:47.561+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:53:47.560+0000] {dag.py:3437} INFO - Setting next_dagrun for basic_etl_dag to None, run_after=None
+[2023-04-30T21:53:47.610+0000] {processor.py:175} INFO - Processing /workspaces/airflow_etl/airflow/dags/etl_dag.py took 0.342 seconds
+[2023-04-30T21:54:17.760+0000] {processor.py:153} INFO - Started process (PID=3772) to work on /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:54:17.761+0000] {processor.py:743} INFO - Processing file /workspaces/airflow_etl/airflow/dags/etl_dag.py for tasks to queue
+[2023-04-30T21:54:17.763+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:54:17.762+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:54:17.975+0000] {processor.py:753} INFO - DAG(s) dict_keys(['basic_etl_dag']) retrieved from /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:54:17.993+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:54:17.992+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-30T21:54:18.012+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:54:18.012+0000] {dag.py:3437} INFO - Setting next_dagrun for basic_etl_dag to None, run_after=None
+[2023-04-30T21:54:18.056+0000] {processor.py:175} INFO - Processing /workspaces/airflow_etl/airflow/dags/etl_dag.py took 0.300 seconds
+[2023-04-30T21:54:48.240+0000] {processor.py:153} INFO - Started process (PID=3971) to work on /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:54:48.241+0000] {processor.py:743} INFO - Processing file /workspaces/airflow_etl/airflow/dags/etl_dag.py for tasks to queue
+[2023-04-30T21:54:48.242+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:54:48.242+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:54:48.469+0000] {processor.py:753} INFO - DAG(s) dict_keys(['basic_etl_dag']) retrieved from /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:54:48.503+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:54:48.502+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-30T21:54:48.528+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:54:48.527+0000] {dag.py:3437} INFO - Setting next_dagrun for basic_etl_dag to None, run_after=None
+[2023-04-30T21:54:48.571+0000] {processor.py:175} INFO - Processing /workspaces/airflow_etl/airflow/dags/etl_dag.py took 0.334 seconds
+[2023-04-30T21:55:18.726+0000] {processor.py:153} INFO - Started process (PID=4177) to work on /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:55:18.727+0000] {processor.py:743} INFO - Processing file /workspaces/airflow_etl/airflow/dags/etl_dag.py for tasks to queue
+[2023-04-30T21:55:18.728+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:55:18.728+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:55:18.933+0000] {processor.py:753} INFO - DAG(s) dict_keys(['basic_etl_dag']) retrieved from /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:55:18.951+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:55:18.951+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-30T21:55:18.973+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:55:18.973+0000] {dag.py:3437} INFO - Setting next_dagrun for basic_etl_dag to None, run_after=None
+[2023-04-30T21:55:19.022+0000] {processor.py:175} INFO - Processing /workspaces/airflow_etl/airflow/dags/etl_dag.py took 0.300 seconds
+[2023-04-30T21:55:49.202+0000] {processor.py:153} INFO - Started process (PID=4373) to work on /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:55:49.204+0000] {processor.py:743} INFO - Processing file /workspaces/airflow_etl/airflow/dags/etl_dag.py for tasks to queue
+[2023-04-30T21:55:49.204+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:55:49.204+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:55:49.407+0000] {processor.py:753} INFO - DAG(s) dict_keys(['basic_etl_dag']) retrieved from /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:55:49.425+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:55:49.425+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-30T21:55:49.444+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:55:49.444+0000] {dag.py:3437} INFO - Setting next_dagrun for basic_etl_dag to None, run_after=None
+[2023-04-30T21:55:49.489+0000] {processor.py:175} INFO - Processing /workspaces/airflow_etl/airflow/dags/etl_dag.py took 0.290 seconds
+[2023-04-30T21:56:19.584+0000] {processor.py:153} INFO - Started process (PID=4577) to work on /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:56:19.585+0000] {processor.py:743} INFO - Processing file /workspaces/airflow_etl/airflow/dags/etl_dag.py for tasks to queue
+[2023-04-30T21:56:19.585+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:56:19.585+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:56:19.786+0000] {processor.py:753} INFO - DAG(s) dict_keys(['basic_etl_dag']) retrieved from /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:56:19.804+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:56:19.803+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-30T21:56:19.822+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:56:19.822+0000] {dag.py:3437} INFO - Setting next_dagrun for basic_etl_dag to None, run_after=None
+[2023-04-30T21:56:19.868+0000] {processor.py:175} INFO - Processing /workspaces/airflow_etl/airflow/dags/etl_dag.py took 0.288 seconds
+[2023-04-30T21:56:49.969+0000] {processor.py:153} INFO - Started process (PID=4780) to work on /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:56:49.970+0000] {processor.py:743} INFO - Processing file /workspaces/airflow_etl/airflow/dags/etl_dag.py for tasks to queue
+[2023-04-30T21:56:49.971+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:56:49.971+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:56:50.172+0000] {processor.py:753} INFO - DAG(s) dict_keys(['basic_etl_dag']) retrieved from /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:56:50.189+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:56:50.189+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-30T21:56:50.207+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:56:50.207+0000] {dag.py:3437} INFO - Setting next_dagrun for basic_etl_dag to None, run_after=None
+[2023-04-30T21:56:50.268+0000] {processor.py:175} INFO - Processing /workspaces/airflow_etl/airflow/dags/etl_dag.py took 0.302 seconds
+[2023-04-30T21:57:20.453+0000] {processor.py:153} INFO - Started process (PID=4984) to work on /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:57:20.455+0000] {processor.py:743} INFO - Processing file /workspaces/airflow_etl/airflow/dags/etl_dag.py for tasks to queue
+[2023-04-30T21:57:20.456+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:57:20.456+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:57:20.659+0000] {processor.py:753} INFO - DAG(s) dict_keys(['basic_etl_dag']) retrieved from /workspaces/airflow_etl/airflow/dags/etl_dag.py
+[2023-04-30T21:57:20.676+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:57:20.676+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-30T21:57:20.696+0000] {logging_mixin.py:137} INFO - [2023-04-30T21:57:20.696+0000] {dag.py:3437} INFO - Setting next_dagrun for basic_etl_dag to None, run_after=None
+[2023-04-30T21:57:20.739+0000] {processor.py:175} INFO - Processing /workspaces/airflow_etl/airflow/dags/etl_dag.py took 0.293 seconds
