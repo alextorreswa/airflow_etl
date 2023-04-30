@@ -218,3 +218,5 @@
 2023-04-30 21:50:13,783 INFO - DagRun Finished: dag_id=basic_etl_dag, execution_date=2023-04-30 21:50:01.810582+00:00, run_id=manual__2023-04-30T21:50:01.810582+00:00, run_start_date=2023-04-30 21:50:02.452910+00:00, run_end_date=2023-04-30 21:50:13.783865+00:00, run_duration=11.330955, state=success, external_trigger=True, run_type=manual, data_interval_start=2023-04-30 21:50:01.810582+00:00, data_interval_end=2023-04-30 21:50:01.810582+00:00, dag_hash=a98d5dbfb01936821518bb58bb3bd8e5
 2023-04-30 21:50:13,785 INFO - Setting next_dagrun for basic_etl_dag to None, run_after=None
 2023-04-30 21:54:48,854 INFO - Resetting orphaned tasks for active dag runs
+2023-04-30 21:59:48,884 INFO - Resetting orphaned tasks for active dag runs
+2023-04-30 22:04:48,917 INFO - Resetting orphaned tasks for active dag runs
