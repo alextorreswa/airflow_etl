@@ -22,9 +22,10 @@ with DAG(
         df = pd.read_csv('/workspaces/airflow_etl/data/exract_sp500.csv')
         group_series = df.groupby(['Sector'])['Sector'].count()
         group_df = pd.DataFrame(group_series)
-        group_df = df3.columns = ['Count']
+        group_df.columns = ['Count']
         group_df['Date'] = today.strftime('%Y-%m-%d')
-        generic_type_df.to_csv('/workspaces/airflow_etl/data/transform_sp500.csv', index=False)
+        group_df = group_df.reset_index()
+        group_df.to_csv('/workspaces/airflow_etl/data/transform_sp500.csv', index=False)
 
     transform_task = PythonOperator(
         task_id='transform_task',
@@ -33,7 +34,7 @@ with DAG(
 
     load_task = BashOperator(
         task_id='load_task',
-        bash_command='echo -e ".separator ","\n.import --skip 1 /workspaces/airflow_etl/data/transform_sp500.csv top_level_domains" | sqlite3 /workspaces/hands-on-introduction-data-engineering-4395021/lab/end-to-end/basic-etl-load-db.db',
+        bash_command='echo -e ".separator ","\n.import --skip 1 /workspaces/airflow_etl/data/transform_sp500.csv sp_500_sector_count" | sqlite3 /workspaces/airflow_etl/data/sp_500.db',
         dag=dag)
 
     extract_task >> transform_task >> load_task

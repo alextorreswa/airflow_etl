@@ -1,0 +1,39 @@
+[2023-04-30T21:41:20.137+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: basic_etl_dag.extract_task manual__2023-04-30T21:41:16.831491+00:00 [queued]>
+[2023-04-30T21:41:20.143+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: basic_etl_dag.extract_task manual__2023-04-30T21:41:16.831491+00:00 [queued]>
+[2023-04-30T21:41:20.143+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-30T21:41:20.143+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-04-30T21:41:20.144+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-30T21:41:20.180+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): extract_task> on 2023-04-30 21:41:16.831491+00:00
+[2023-04-30T21:41:20.183+0000] {standard_task_runner.py:55} INFO - Started process 30871 to run task
+[2023-04-30T21:41:20.187+0000] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'extract_task', 'manual__2023-04-30T21:41:16.831491+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmpi54njx78']
+[2023-04-30T21:41:20.189+0000] {standard_task_runner.py:83} INFO - Job 8: Subtask extract_task
+[2023-04-30T21:41:20.259+0000] {task_command.py:388} INFO - Running <TaskInstance: basic_etl_dag.extract_task manual__2023-04-30T21:41:16.831491+00:00 [running]> on host codespaces-f747d3
+[2023-04-30T21:41:20.478+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=basic_etl_dag
+AIRFLOW_CTX_TASK_ID=extract_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-30T21:41:16.831491+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-30T21:41:16.831491+00:00
+[2023-04-30T21:41:20.479+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-04-30T21:41:20.479+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'wget -c https://datahub.io/core/s-and-p-500-companies/r/constituents.csv -O /workspaces/airflow_etl/data/exract_sp500.csv']
+[2023-04-30T21:41:20.487+0000] {subprocess.py:86} INFO - Output:
+[2023-04-30T21:41:20.492+0000] {subprocess.py:93} INFO - --2023-04-30 21:41:20--  https://datahub.io/core/s-and-p-500-companies/r/constituents.csv
+[2023-04-30T21:41:20.494+0000] {subprocess.py:93} INFO - Resolving datahub.io (datahub.io)... 104.21.40.221, 172.67.157.38, 2606:4700:3033::6815:28dd, ...
+[2023-04-30T21:41:20.499+0000] {subprocess.py:93} INFO - Connecting to datahub.io (datahub.io)|104.21.40.221|:443... connected.
+[2023-04-30T21:41:21.829+0000] {subprocess.py:93} INFO - HTTP request sent, awaiting response... 302 Found
+[2023-04-30T21:41:21.830+0000] {subprocess.py:93} INFO - Location: https://pkgstore.datahub.io/core/s-and-p-500-companies/constituents_csv/data/1beb8c524488247ccb27917bfcb581ec/constituents_csv.csv [following]
+[2023-04-30T21:41:21.830+0000] {subprocess.py:93} INFO - --2023-04-30 21:41:21--  https://pkgstore.datahub.io/core/s-and-p-500-companies/constituents_csv/data/1beb8c524488247ccb27917bfcb581ec/constituents_csv.csv
+[2023-04-30T21:41:21.831+0000] {subprocess.py:93} INFO - Resolving pkgstore.datahub.io (pkgstore.datahub.io)... 104.21.40.221, 172.67.157.38, 2606:4700:3033::6815:28dd, ...
+[2023-04-30T21:41:21.836+0000] {subprocess.py:93} INFO - Connecting to pkgstore.datahub.io (pkgstore.datahub.io)|104.21.40.221|:443... connected.
+[2023-04-30T21:41:21.910+0000] {subprocess.py:93} INFO - HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+[2023-04-30T21:41:21.910+0000] {subprocess.py:93} INFO - 
+[2023-04-30T21:41:21.910+0000] {subprocess.py:93} INFO -     The file is already fully retrieved; nothing to do.
+[2023-04-30T21:41:21.911+0000] {subprocess.py:93} INFO - 
+[2023-04-30T21:41:21.911+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-04-30T21:41:21.954+0000] {taskinstance.py:1318} INFO - Marking task as SUCCESS. dag_id=basic_etl_dag, task_id=extract_task, execution_date=20230430T214116, start_date=20230430T214120, end_date=20230430T214121
+[2023-04-30T21:41:22.004+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-04-30T21:41:22.033+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check
